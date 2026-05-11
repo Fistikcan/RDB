@@ -20,7 +20,7 @@ if hWnd:
     user32.ShowWindow(hWnd, 0)
     
 CREATE_NO_WINDOW = 0x08000000
-CF_TOKEN = "eyJhIjoiNGExZmU1Njc4MWQ2Nzk2NjFmZDM2YWYyNjlhYmEwZGQiLCJ0IjoiZjIyNzYzZmMtZTE5Yi00MmY2LTgzODMtZmRkMTE5ZGU3OWYwIiwicyI6IllXRmtaRGhrTTJNdE1ESTJaQzAwT1RnMkxUaG1aV1l0WW1FME9URmlZV05rTVRFeiJ9"
+CF_TOKEN = "YOUR_TOKEN"
 # =======================================================
 
 app = Flask(__name__)
